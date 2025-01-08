@@ -9,6 +9,7 @@ public class Arithmetic {
 		return x+y;
 	}
 	
+	//subtraction on two numbers
 	public  long sub(long x, long y) {
 		return x-y;
 	}

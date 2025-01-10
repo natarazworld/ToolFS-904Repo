@@ -1,5 +1,7 @@
 package com.nt.nb;
 
+import java.util.List;
+
 public class NetBankingOperations {
 
 	public   String doPayment (long cardNo,double amt) {
@@ -11,4 +13,9 @@ public class NetBankingOperations {
 		
 	}
 	
+	public   List<String >  showReport(){
+		System.out.println("NetBankingOperations.showReport()");
+		return List.of("report1","report2");
+	}
+ 	
 }
